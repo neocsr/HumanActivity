@@ -8,14 +8,18 @@ The five steps outlined in the instructions of the assignment are indicated as c
 
 The required data files are in the same root directory with the script.
 
+To clone this repository:
+
+    > git clone git@github.com:neocsr/HumanActivity.git
+
 The script can be run from *RStudio* after setting the working directory to the scripts directory:
     
-    > setwd("~/Getting and Cleaning Data/Assignment")
+    > setwd("~/HumanActivity")
     > source("run_analysis.R")
 
 Alternatively the script can be run from a *terminal* session:
 
-    > cd "~/Getting and Cleaning Data/Assignment"
+    > cd "~/HumanActivity"
     > Rscript run_analysis.R
 
 This script will generate a file called *tidy.txt* which contains the final dataset. 
